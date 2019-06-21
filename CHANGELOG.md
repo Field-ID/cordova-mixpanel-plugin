@@ -1,6 +1,27 @@
 Changelog
 =========
 
+### 4.6.2 2019-06-05
+- update android lib from 5.6.0 to 5.6.2
+- update ios lib from 3.4.4 to 3.4.6
+ 
+
+### 4.6.1 2019-04-03
+4.6.0 and 4.5.3 were broken versions because of accidental commit of ref to .DS_store file from plugin.xml.
+released 4.6.1 and 4.5.4 with the fix (removing the ref)
+
+
+### 4.6.0 2019-03-30
+ - update android lib from 5.4.5 to 5.6.0
+   - push notifs: FCM now replaces GCM
+     see: https://github.com/mixpanel/mixpanel-android/releases/tag/v5.5.0
+ - update ios lib from 3.4.1 to 3.4.4
+ - BREAKING CHANGE: removed the android only `initPushHandling` fn
+
+### 4.5.3 2019-03-30
+ - update android lib from 5.4.4 to 5.4.5
+ - update ios lib from 3.3.7 to 3.4.1
+
 ### 4.5.2 2018-12-27
  - update android lib from 5.4.1 to 5.4.4
  - update ios lib from 3.3.3 to 3.3.7
